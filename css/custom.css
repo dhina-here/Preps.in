@@ -70,7 +70,7 @@ button {
 
 /********** banner **********/
 #banner header {
-    overflow: unhidden;
+    overflow: hidden;
 }
 
 #banner header img {
@@ -160,6 +160,6 @@ button {
         margin : auto;
         margin-right : -10px;
         padding : 0 ;
-        overflow : unhidden ;
+        overflow : hidden ;
     }
 }
