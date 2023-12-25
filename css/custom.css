@@ -114,7 +114,9 @@ button {
 #contact ul li {
     padding: 3px 0;
 }
-
+#banner header img {
+    max-width: 80px;
+}
 
 
 /********** copyright **********/
@@ -147,10 +149,10 @@ button {
 
 /********** RWD **********/
 
-@media only screen and (max-width: 600px) {
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
+@media (max-width: 600px) {
+    #banner h1 {
+        font-size: 3.6rem;
+    }  
+    .jumbotron jumbotron-fluid.contact{
+        margin : 0 0 -10px  0
 }
