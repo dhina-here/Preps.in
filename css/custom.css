@@ -157,12 +157,4 @@ button {
         font-size: 3.6rem;
     }  
 }
-@media only screen and (max-width : 375px){
-    html,body{
-        width : 100%;
-        margin : auto;
-        margin-right : -10px;
-        padding : 0 ;
-        overflow : hidden ;
-    }
-}
+
