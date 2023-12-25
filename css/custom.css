@@ -150,13 +150,4 @@ button {
     #banner h1 {
         font-size: 3.6rem;
     }
-.container {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.item {
-  flex: 1 1 300px;
-}
-
 }
