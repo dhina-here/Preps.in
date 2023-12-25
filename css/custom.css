@@ -149,10 +149,16 @@ button {
 
 /********** RWD **********/
 
-@media (max-width: 600px) {
+@media (max-width: 575px) {
     #banner h1 {
         font-size: 3.6rem;
     }  
-    .jumbotron jumbotron-fluid.contact{
-        margin : 0 0 -10px  0
+}
+@media only screen and (max-width : 375px){
+    html,body{
+        width : 100%;
+        margin : auto;
+        padding : auto ;
+        overflow : hidden ;
+    }
 }
