@@ -1,6 +1,11 @@
 /********** common setting **********/
+*{
+    overflow-x: hidden;
+}
+
 body{
     overflow-x : hidden ;
+    width: 100%;
 }
 h2 {
     font-size: 2.8rem !important;
